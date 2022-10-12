@@ -1,8 +1,12 @@
 .Ticket-page{
-    width: 100%;
+    width: 80%;
     background-color: #E5E5E5;
     /* height: 100vh; */
     display: flex;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
 }
 
 .mid{

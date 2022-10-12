@@ -1,7 +1,6 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
+import { NavLink , } from 'react-router-dom';
 import './Sitebar.css';
-
 
 const Sitebar = () => {
     return (
@@ -28,29 +27,29 @@ const Sitebar = () => {
                                 </NavLink>
                             </li>
                             <li>
-                                
+                                <NavLink to='/Contacts'>
                                     Contacts
-                                
+                                </NavLink>
                             </li>
                             <li>
-                                
+                                <NavLink to='/Agents'>
                                     Agents
-                                
+                                </NavLink>
                             </li>
                             <li>
-                                
+                                <NavLink to='/Articles'>
                                     Articles
-                                
+                                </NavLink>
                             </li>
                             <li>
-                                
+                                <NavLink to='/Settings'>
                                     Settings
-                                
+                                </NavLink>
                             </li>
                             <li>
-                                
-                                    Subsription
-                                
+                                <NavLink to='/Subscription'>
+                                    Subscription
+                                </NavLink>
                             </li>
                         </ul>
                     </nav>
