@@ -29,14 +29,21 @@
 
 li{
     color: #A4A6B3;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     align-items: center;
     margin: 5px;
     margin-top: 20px;
 }
  
-img{
-    position: absolute;
-    left: 60px;
+
+.links{
+    color: #DDE2FF;
+    display: flex;
+    text-decoration: none;
 }
+   .links img{
+        /* position: absolute; */
+        margin-left: 30px;
+        margin-right: 24px;
+    }

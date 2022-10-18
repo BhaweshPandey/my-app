@@ -5,38 +5,39 @@ import './Overview.css';
 const Overview = () => {
   return (
     <div className='overview-page'>
-    <div className='top'>
-    <div className='top-box'>
-      <p>Unresolved</p>
-      <h2>60</h2>
-    </div>
-    <div className='top-box'>
-      <p>Overdue</p>
-      <h2>16</h2>
-    </div>
-    <div className='top-box'>
-      <p>Open</p>
-      <h2>43</h2>
-    </div>
-    <div className='top-box'>
-      <p>On hold</p>
-      <h2>62</h2>
-    </div>
-    </div>
-    <div className='mid-b'>
-      <div className='mid-b-box'>
-      mid
+      <div className='top'>
+        <div className='top-box'>
+          <p>Unresolved</p>
+          <h2>60</h2>
+        </div>
+        <div className='top-box'>
+          <p>Overdue</p>
+          <h2>16</h2>
+        </div>
+        <div className='top-box'>
+          <p>Open</p>
+          <h2>43</h2>
+        </div>
+        <div className='top-box'>
+          <p>On hold</p>
+          <h2>62</h2>
+        </div>
       </div>
-    </div>
-    <div className='footer'>
-      <div className='footer-left'>
-      left
+      <div className='mid-b'>
+        <div className='mid-b-box'>
+          mid
+        </div>
       </div>
-      <div className='footer-right'>
-      right
+      <div className='footer'> 
+
+        <div className='footer-left'>
+          left
+        </div>
+        <div className='footer-right'>
+          right
+        </div>
       </div>
-    </div>
-    {/*<Plot
+      {/*<Plot
         data={[
           {
             x: [1, 2, 3],
