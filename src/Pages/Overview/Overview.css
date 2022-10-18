@@ -31,6 +31,10 @@
     background-color: white;
 }
 
+p{
+    color: #9FA2B4;
+}
+
 .footer{
     display: flex;
     justify-content: space-between;
