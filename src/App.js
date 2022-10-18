@@ -16,7 +16,7 @@ import Settings from './Pages/Settings/Settings';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Router>
       <Sitebar></Sitebar>
         <Routes>

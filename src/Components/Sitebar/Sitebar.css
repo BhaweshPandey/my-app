@@ -16,12 +16,14 @@
 .Sitebar-heading{
     background-image: url(../../image/D.png) , url(../../image/Ellipse.png);
     background-repeat: no-repeat;
-    background-position: 15px 12px ,0px 0px;
+    background-position: 15px 52px ,0px 40px;
     margin-top: 50px;
-    height: 50px;
+    padding-top: 50px;
+    margin-left: 30px;
+    width: 100%;
+    height: 100px;
     color: #A4A6B3;
-    display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 
@@ -30,5 +32,11 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 15px;
+    margin: 5px;
+    margin-top: 20px;
+}
+ 
+img{
+    position: absolute;
+    left: 60px;
 }
