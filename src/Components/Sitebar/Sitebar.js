@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink , } from 'react-router-dom';
+import { NavLink, } from 'react-router-dom';
 import './Sitebar.css';
 import Vector1 from '../../image/Vecto2r.png';
 import Vector2 from '../../image/Vector3.png';
@@ -17,60 +17,60 @@ const Sitebar = () => {
             <div className='Sitebar-heading'>
                 <h3>Deshboard Kit</h3>
             </div>
-                <div>
-                    <nav>
-                        <ul>
-                            <li>
-                                <NavLink to='/'>
-                                   Overview
-                            <img src={Vector1} alt='' />
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink to='/Ticket'>
-                                    Ticket
-                            <img src={Vector2} alt='' />
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink to='/Ideas'>
-                                    Ideas
-                                    <img src={Vector3} alt='' />
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink to='/Contacts'>
-                                    Contacts
-                                    <img src={Vector4} alt='' />
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink to='/Agents'>
-                                    Agents
-                                    <img src={Vector5} alt='' />
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink to='/Articles'>
-                                    Articles
-                                    <img src={Vector6} alt='' />
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink to='/Settings'>
-                                    Settings
-                                    <img src={Vector7} alt='' />
-                                </NavLink>
-                            </li>
-                            <li>
-                                <NavLink to='/Subscription'>
-                                    Subscription
-                                    <img src={Vector8} alt='' />
-                                </NavLink>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+            <div>
+                <nav>
+                    <ul>
+                        <li>
+                            <NavLink className={"links"} to='/'>
+                                <img src={Vector1}  alt='' />
+                                <span>Overview</span>
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink className={"links"} to='/Ticket'>
+                                <img src={Vector2} alt='' />
+                                Ticket
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink className={"links"} to='/Ideas'>
+                                <img src={Vector3} alt='' />
+                                Ideas
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink className={"links"} to='/Contacts'>
+                                <img src={Vector4} alt='' />
+                                Contacts
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink className={"links"} to='/Agents'>
+                                <img src={Vector5} alt='' />
+                                Agents
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink className={"links"} to='/Articles'>
+                                <img src={Vector6} alt='' />
+                                Articles
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink className={"links"} to='/Settings'>
+                                <img src={Vector7} alt='' />
+                                Settings
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink className={"links"} to='/Subscription'>
+                                <img src={Vector8} alt='' />
+                                Subscription
+                            </NavLink>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     )
 }
