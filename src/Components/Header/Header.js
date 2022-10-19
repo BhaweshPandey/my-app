@@ -7,7 +7,7 @@ const Header = () => {
     <div>
     <Header>
         <img src={search} alt='' />
-
+        hello
         
     </Header>
     </div>

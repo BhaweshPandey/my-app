@@ -46,9 +46,32 @@ p{
 .footer-left{
     background-color: white;
     width: 48%;
+    margin-bottom: 25px;
+}
+
+.f-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+a{
+    color: blue;
+}
+
+.f-mid{
+    display: flex;
+    flex-direction: column;
+}
+
+.f-l-mid-w{
+    display: flex;
+    justify-content: space-between;
+    margin: 11px;
 }
 
 .footer-right{
     background-color: white;
     width: 48%;
+    margin-bottom: 25px;
 }

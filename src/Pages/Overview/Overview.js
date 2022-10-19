@@ -1,6 +1,7 @@
 import React from 'react';
 import Plot from 'react-plotly.js';
 import './Overview.css';
+import plus from '../../image/inactive.png';
 
 const Overview = () => {
   return (
@@ -29,12 +30,46 @@ const Overview = () => {
         </div>
       </div>
       <div className='footer'> 
-
         <div className='footer-left'>
-          left
+          <div className='f-top'>
+            <div><h3>Unresolved Tickets</h3>
+            <p>Group:support</p></div>
+            <div><a>View details</a></div>
+          </div>
+          <div className='f-mid'>
+            <div className='f-l-mid-w'>
+              <h4>Waiting on Feature Request</h4>
+              <p>4238</p>
+            </div>
+            <hr/>
+            <div className='f-l-mid-w'>
+              <h4>Awaiting Customer Respose</h4>
+              <p>1005</p>
+            </div>
+            <hr/>
+            <div className='f-l-mid-w'>
+            <h4>Awaiting developer Fix</h4>
+            <p>914</p>
+            </div>
+            <hr/>
+            <div className='f-l-mid-w'>
+              <h4>Pending</h4>
+              <p>281</p>
+            </div>
+          </div>
         </div>
         <div className='footer-right'>
-          right
+        <div className='f-top'>
+            <div><h3>Tasts</h3>
+            <p>Today</p></div>
+            <div><a>View all</a></div>
+        </div>
+            <div className='f-mid'>
+            <div className='f-l-mid-w'>
+              <p>Create New Tasts</p>
+              <img src={plus} alt=''/>
+            </div>
+            </div>
         </div>
       </div>
       {/*<Plot
